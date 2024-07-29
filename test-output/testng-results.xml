@@ -1,78 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-24T12:20:40 IST" name="Default suite" finished-at="2024-07-24T12:20:41 IST" duration-ms="1647">
+  <suite started-at="2024-07-29T21:31:57 IST" name="Default suite" finished-at="2024-07-29T21:32:00 IST" duration-ms="2676">
     <groups>
     </groups>
-    <test started-at="2024-07-24T12:20:40 IST" name="Default test" finished-at="2024-07-24T12:20:41 IST" duration-ms="1647">
-      <class name="SrcCode.New">
-        <test-method signature="main1()[pri:0, instance:SrcCode.New@292b08d6]" started-at="2024-07-24T12:20:40 IST" name="main1" finished-at="2024-07-24T12:20:41 IST" duration-ms="1597" status="FAIL">
-          <exception class="org.openqa.selenium.InvalidArgumentException">
-            <message>
-              <![CDATA[invalid argument
-  (Session info: chrome=126.0.6478.182)
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [af185023aac8a0e3617b7a24cde644ad, get {url=url}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\raghu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60818}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60818/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: af185023aac8a0e3617b7a24cde644ad]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument
-  (Session info: chrome=126.0.6478.182)
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [af185023aac8a0e3617b7a24cde644ad, get {url=url}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\raghu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60818}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60818/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: af185023aac8a0e3617b7a24cde644ad
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
-at SrcCode.New.main1(New.java:23)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+    <test started-at="2024-07-29T21:31:57 IST" name="Default test" finished-at="2024-07-29T21:32:00 IST" duration-ms="2676">
+      <class name="ApiTesting">
+        <test-method signature="testUser()[pri:0, instance:ApiTesting@5542c4ed]" started-at="2024-07-29T21:31:57 IST" name="testUser" finished-at="2024-07-29T21:32:00 IST" duration-ms="2631" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- main1 -->
-      </class> <!-- SrcCode.New -->
+        </test-method> <!-- testUser -->
+      </class> <!-- ApiTesting -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
